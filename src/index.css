@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url(./assets/font/ClashDisplay-Bold.otf);
+}
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(./assets/font/PlusJakartaSans-Regular.ttf);
+}
+@font-face {
+    font-family: SFPRODISPLAYREGULAR;
+    src: url(./assets/font/SFPRODISPLAYREGULAR.otf);
+}
+
+
+html{
+    height:100%;
+    width:100%;
+}
+
+.rfm-child{
+    margin: 0 61px;
+}
+
+.text-outlined{
+    -webkit-text-stroke:.001px white;
+    color: black;
+}
